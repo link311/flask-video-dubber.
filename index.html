@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Dubber</title>
+</head>
+<body>
+    <h2>Upload a Video to Dub</h2>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label>Choose video (MP4):</label><br>
+        <input type="file" name="video" accept="video/mp4" required><br><br>
+        <label>Select target language code (e.g., bn for Bengali, hi for Hindi, en for English):</label><br>
+        <input type="text" name="language" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
